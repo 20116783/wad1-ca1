@@ -1,0 +1,27 @@
+{{> menu id="about"}}
+
+<section class="ui segment">
+    <div class="ui two column grid stackable middle aligned">
+        <div class="column">
+            <h2>About the Developer</h2>
+            <p>This application was developed as a part of Web App Development 1 to demonstrate JSON data handling and MVC architecture.</p>
+
+            <div class="ui statistics">
+                {{#each info.stats}}
+                    <div class="statistic">
+                        <div class="value">{{value}}</div>
+                        <div class="label">{{label}}</div>
+                    </div>
+                {{/each}}
+            </div>
+
+            <h4 class="ui header"><i class="mail icon"></i> Contact: {{info.author}}</h4>
+        </div>
+
+        <div class="column">
+            <h3 class="ui center aligned header">Our Location</h3>
+            <!-- Fictitious Map image as per requirement -->
+            <img class="ui fluid bordered image" src="https://www.google.com/maps/about/images/mymaps/mymaps-desktop-16x9.png" alt="Map Location">
+        </div>
+    </div>
+</section>

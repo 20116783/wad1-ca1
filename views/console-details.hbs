@@ -1,0 +1,28 @@
+{{> menu}}
+
+<section class="ui raised segment">
+    <h2 class="ui header">{{collection.title}}</h2>
+
+    <table class="ui celled table">
+        <thead>
+        <tr>
+            <th>Console Name</th>
+            <th>Release Year</th>
+            <th>Form Factor</th>
+            <th>Best Selling Game</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each collection.consoles}}
+            <tr>
+                <td><strong>{{name}}</strong></td>
+                <td>{{year}}</td>
+                <td>{{type}}</td>
+                <td><i class="trophy icon yellow"></i> {{game}}</td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+
+    <a href="/dashboard" class="ui labeled icon button"><i class="left arrow icon"></i> Back to Dashboard</a>
+</section>

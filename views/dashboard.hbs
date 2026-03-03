@@ -1,0 +1,21 @@
+{{> menu id="dashboard"}}
+
+<section class="ui segment">
+    <h2 class="ui header">Gaming Manufacturers</h2>
+    <div class="ui three cards">
+        {{#each collections}}
+            <div class="ui card">
+                <div class="content">
+                    <div class="header">{{title}}</div>
+                    <div class="description">{{description}}</div>
+                </div>
+                <div class="extra content">
+                    <!-- Icon link for high marks -->
+                    <a href="/collection/{{id}}" class="ui primary button">
+                        <i class="folder open icon"></i> View Consoles
+                    </a>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+</section>

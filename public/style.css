@@ -1,14 +1,25 @@
-html {
-  box-sizing: border-box;
-  font-size: 16px;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
-  margin: 2em;
-  background-color: lightgrey;
+    background-color: #1b1c1d; /* Dark background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eeeeee;
+}
+
+.ui.segment {
+    background-color: #2d2e2f !important;
+    color: white !important;
+    border: 1px solid #444 !important;
+}
+
+.ui.header {
+    color: #00b5ad !important; /* Teal accent */
+}
+
+.ui.table {
+    background-color: #2d2e2f !important;
+    color: white !important;
+}
+
+.ui.table thead th {
+    background-color: #1b1c1d !important;
+    color: #00b5ad !important;
 }
