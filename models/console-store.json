@@ -5,9 +5,27 @@
       "title": "Sony PlayStation",
       "description": "The home of icons like God of War and Uncharted.",
       "consoles": [
-        { "id": "c1", "name": "PlayStation 5", "year": "2020", "type": "Home Console", "game": "Spider-Man 2" },
-        { "id": "c2", "name": "PlayStation 4", "year": "2013", "type": "Home Console", "game": "Bloodborne" },
-        { "id": "c3", "name": "PlayStation Portable", "year": "2004", "type": "Handheld", "game": "Monster Hunter Freedom" }
+        {
+          "id": "c1",
+          "name": "PlayStation 5",
+          "year": "2020",
+          "type": "Home Console",
+          "game": "Spider-Man 2"
+        },
+        {
+          "id": "c2",
+          "name": "PlayStation 4",
+          "year": "2013",
+          "type": "Home Console",
+          "game": "Bloodborne"
+        },
+        {
+          "id": "c3",
+          "name": "PlayStation Portable",
+          "year": "2004",
+          "type": "Handheld",
+          "game": "Monster Hunter Freedom"
+        }
       ]
     },
     {

@@ -1,25 +1,89 @@
+:root {
+    --bg-page: #0f111a;
+    --bg-card: #1b1d29;
+    --bg-card-hover: #222533;
+    --accent-teal: #00b5ad;
+    --accent-teal-glow: rgba(0, 181, 173, 0.15);
+    --border-subtle: #2d3142;
+    --text-main: #eeeeee;
+    --text-muted: #a0a0a0;
+}
+
 body {
-    background-color: #1b1c1d; /* Dark background */
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #eeeeee;
+    background-color: var(--bg-page);
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+    color: var(--text-main);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
 }
 
 .ui.segment {
-    background-color: #2d2e2f !important;
-    color: white !important;
-    border: 1px solid #444 !important;
+    background-color: var(--bg-card) !important;
+    color: var(--text-main) !important;
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.ui.segment:hover {
+    border-color: var(--accent-teal) !important;
 }
 
 .ui.header {
-    color: #00b5ad !important; /* Teal accent */
+    color: var(--accent-teal) !important;
+    letter-spacing: -0.02em;
+    font-weight: 600;
+}
+
+.ui.sub.header {
+    color: var(--text-muted) !important;
+    text-transform: uppercase;
+    font-size: 0.85em;
 }
 
 .ui.table {
-    background-color: #2d2e2f !important;
-    color: white !important;
+    background-color: var(--bg-card) !important;
+    color: var(--text-main) !important;
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: 12px !important;
+    overflow: hidden;
 }
 
 .ui.table thead th {
-    background-color: #1b1c1d !important;
-    color: #00b5ad !important;
+    background-color: #141621 !important;
+    color: var(--accent-teal) !important;
+    border-bottom: 2px solid var(--border-subtle) !important;
+    padding: 1.2em !important;
 }
+
+.ui.table tbody td {
+    border-top: 1px solid var(--border-subtle) !important;
+    padding: 1em !important;
+}
+
+.ui.table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.ui.table tbody tr:hover {
+    background-color: var(--bg-card-hover) !important;
+    cursor: default;
+}
+
+.ui.input input {
+    background-color: #141621 !important;
+    color: white !important;
+    border: 1px solid var(--border-subtle) !important;
+    border-radius: 8px !important;
+}
+
+.ui.input input:focus {
+    border-color: var(--accent-teal) !important;
+    box-shadow: 0 0 0 3px var(--accent-teal-glow) !important;
+}
+.glass-effect {
+     background: rgba(27, 29, 41, 0.7) !important; /* Semi-transparent */
+     backdrop-filter: blur(10px); /* Frosted glass effect */
+     -webkit-backdrop-filter: blur(10px);
+ }
