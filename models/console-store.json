@@ -34,7 +34,8 @@
       "description": "Powerful hardware paired with the Game Pass ecosystem.",
       "consoles": [
         { "id": "c4", "name": "Xbox Series X", "year": "2020", "type": "Home Console", "game": "Halo Infinite" },
-        { "id": "c5", "name": "Xbox 360", "year": "2005", "type": "Home Console", "game": "Gears of War" }
+        { "id": "c5", "name": "Xbox One", "year": "2013", "type": "Home Console", "game": "Grand Theft Auto V" },
+        { "id": "c6", "name": "Xbox 360", "year": "2005", "type": "Home Console", "game": "Gears of War" }
       ]
     },
     {
@@ -42,9 +43,9 @@
       "title": "Nintendo",
       "description": "Innovative hardware and family-friendly classics.",
       "consoles": [
-        { "id": "c6", "name": "Nintendo Switch", "year": "2017", "type": "Hybrid", "game": "Zelda: Breath of the Wild" },
-        { "id": "c7", "name": "GameCube", "year": "2001", "type": "Home Console", "game": "Super Smash Bros. Melee" },
-        { "id": "c8", "name": "GameBoy Color", "year": "1998", "type": "Handheld", "game": "Pokémon Gold/Silver" }
+        { "id": "c7", "name": "Nintendo Switch", "year": "2017", "type": "Hybrid", "game": "Zelda: Breath of the Wild" },
+        { "id": "c8", "name": "GameCube", "year": "2001", "type": "Home Console", "game": "Super Smash Bros. Melee" },
+        { "id": "c9", "name": "GameBoy Color", "year": "1998", "type": "Handheld", "game": "Pokémon Gold/Silver" }
       ]
     }
   ]
